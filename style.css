@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0e0e0;
+  }
+  
+  form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="text"] {
+    width: 270px;
+    height: 50px;
+    background-color: #222;
+    color:#006666;;
+    font-size: 2rem;
+    text-align: right;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .number {
+    width: 60px;
+    height: 60px;
+    background-color: #444;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.number:hover {
+    background-color: #555;
+  }
+  
+  .function { width: 60px;
+    height: 60px;
+    background-color: #006666;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .function:hover{
+    background-color: #008282;
+  }
+  .equal { 
+    width: 135px;
+    height: 60px;
+    background-color: #333dff;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .equal:hover {
+    background-color: #003399;
+  }
+  
+  .ac{
+    width: 60px;
+    height: 60px;
+    background-color: #f51f1f;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .dl{
+    width: 60px;
+    height: 60px;
+    background-color: #ffa927;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
